@@ -57,15 +57,15 @@ const generateHTML = (images) => {
 const getImages = (apiURL) => {
     // Fetching images by API call with authorization header
     searchInput.blur();
-    loadMoreBtn.innerText = "Loading...";
+    loadMoreBtn.innerText = "Cargando...";
     loadMoreBtn.classList.add("disabled");
     fetch(apiURL, {
         headers: { Authorization: apiKey }
     }).then(res => res.json()).then(data => {
         generateHTML(data.photos);
-        loadMoreBtn.innerText = "Load More";
+        loadMoreBtn.innerText = "Ver más";
         loadMoreBtn.classList.remove("disabled");
-    }).catch(() => alert("Failed to load images!"));
+    }).catch(() => alert("!Error al cargar imágenes!"));
 }
 
 const loadMoreImages = () => {

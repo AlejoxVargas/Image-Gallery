@@ -11,15 +11,21 @@
 
 .navbar{
     width: 100%;
-    height: 60px;  
+    height: 60px; 
+    background-color: #fff; 
 }
 
 #brand-logo{
     font-weight: 500;
     color: #009970;
-    font-size: 24px;
-    transition: 0.3s color;
+    font-size: 32px;
+    transition: 0.2s color;
 }
+
+#brand-logo:hover{
+    color: #000;
+}
+
 
 .login-button {
   background-color: #009970;
@@ -28,7 +34,7 @@
   padding: 8px 20px;
   border-radius: 50px;
   text-decoration: none;
-  transition: 0.3s background-color;
+  transition: 0.2s background-color;
 }
 
 .login-button:hover {
