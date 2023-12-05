@@ -1,6 +1,6 @@
-# Your Project Name
+# Pixelejo
 
-![Project Cover Image](url_de_la_imagen_de_portada.jpg)
+![Project Cover Image](https://github.com/BEPb/BEPb/blob/main/src/header_.png?raw=true)
 
 [![GitHub stars](https://img.shields.io/github/stars/YourUsername/YourRepository.svg)](https://github.com/YourUsername/YourRepository/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/YourUsername/YourRepository.svg)](https://github.com/YourUsername/YourRepository/network)
