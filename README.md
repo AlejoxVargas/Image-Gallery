@@ -2,11 +2,11 @@
 
 ![Project Cover Image](https://github.com/BEPb/BEPb/blob/main/src/header_.png?raw=true)
 
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/YourRepository.svg)](https://github.com/YourUsername/YourRepository/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YourUsername/YourRepository.svg)](https://github.com/YourUsername/YourRepository/network)
-[![GitHub license](https://img.shields.io/github/license/YourUsername/YourRepository.svg)](https://github.com/YourUsername/YourRepository/blob/main/LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/YourUsername/YourRepository.svg)
-![GitHub issues](https://img.shields.io/github/issues/YourUsername/YourRepository.svg)
+[![GitHub stars](https://img.shields.io/github/stars/AlejoxVargas/Image-Gallery.svg)](https://github.com/AlejoxVargas/Image-Gallery/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/AlejoxVargas/Image-Gallery.svg)](https://github.com/AlejoxVargas/Image-Gallery/network)
+[![GitHub license](https://img.shields.io/github/license/AlejoxVargas/Image-Gallery.svg)](https://github.com/AlejoxVargas/Image-Gallery/blob/main/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/AlejoxVargas/Image-Gallery.svg)
+![GitHub issues](https://img.shields.io/github/issues/AlejoxVargas/Image-Gallery.svg)
 
 ## Index
 
