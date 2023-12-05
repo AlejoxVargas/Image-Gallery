@@ -55,3 +55,9 @@ Your Project Name is a web gallery application that uses the Pexels API to displ
 1. Clone the repository:
    ```bash
    git clone https://github.com/YourUsername/YourRepository.git
+
+## Licensia
+
+## Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE) - ver el archivo [LICENSE](LICENSE) para más detalles.
