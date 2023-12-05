@@ -54,6 +54,86 @@ Your Project Name is a web gallery application that uses the Pexels API to displ
    ```bash
    git clone https://github.com/YourUsername/YourRepository.git
 
+**🌟 API Readme 🌟**
+
+## Getting Started 🚀
+
+To get started with PhotoEase API, follow these simple steps:
+
+### 1. Obtain Pexels API Key 🔑
+
+Sign up on the [Pexels website](https://www.pexels.com/api/) to obtain your API key. This key is required for authentication to access the PhotoEase API.
+
+### 2. Include API Key in Requests 📡
+
+In all your API requests, include your Pexels API key in the `Authorization` header.
+
+## 3. Explore Curated Photos 📸
+GET https://api.pexels.com/v1/curated?page=1&per_page=15
+Authorization: YOUR_PEXELS_API_KEY
+
+```http
+GET https://api.pexels.com/v1/curated?page=1&per_page=15
+Authorization: YOUR_PEXELS_API_KEY
+{
+  "page": 1,
+  "per_page": 15,
+  "photos": [
+    {
+      "id": 123,
+      "src": {
+        "large2x": "https://example.com/photo1_large.jpg",
+        "original": "https://example.com/photo1_original.jpg"
+      },
+      "photographer": "John Doe"
+    },
+    // ... more photos
+  ]
+}
+```
+## API Endpoints 🚧
+Get Curated Photos 🌐
+Retrieve curated high-quality photos.
+
+Endpoint: /curated
+Method: GET
+Parameters:
+page (optional): The page number of the results (default is 1).
+per_page (optional): Number of photos per page (default is 15, maximum is 80).
+Response 🎉
+The API response includes a paginated list of curated photos. Each photo object contains the following information:
+
+id: Unique identifier for the photo.
+src: Object containing URLs for different photo sizes.
+Example Usage 🚀
+Here's an example of how you can use the PhotoEase API in JavaScript:
+```
+const apiKey = 'YOUR_PEXELS_API_KEY';
+const page = 1;
+const perPage = 15;
+
+fetch(`https://api.pexels.com/v1/curated?page=${page}&per_page=${perPage}`, {
+  headers: {
+    Authorization: apiKey
+  }
+})
+  .then(response => response.json())
+  .then(data => {
+    console.log(data.photos);
+    // Process the retrieved photos as needed
+  })
+  .catch(error => console.error('Error fetching curated photos:', error));
+```
+Contributing 🤝
+We welcome contributions! If you have suggestions, find issues, or want to add features, please feel free to contribute.
+
+License 📄
+This project is licensed under the [Tsjy4snA43ztTFwJW2xAz7t6aJxTnS3L5rZUM72gJ2ZOIuUyNlJUMrXW] - see the LICENSE file for details.
+Documentatio: [https://www.pexels.com/api/documentation/]
+
+Enjoy using PhotoEase API for seamless access to a curated collection of captivating photos! 🌈✨
+
+
 ## Licensia
 
 Este proyecto está bajo la [Licencia MIT](LICENSE) - ver el archivo [LICENSE](LICENSE) para más detalles.
