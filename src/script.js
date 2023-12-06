@@ -7,7 +7,7 @@ const downloadImgBtn = lightbox.querySelector(".uil-import");
 const closeImgBtn = lightbox.querySelector(".close-icon");
 
 // Variables para la API, paginación y términos de búsqueda
-const apiKey = process.env.API_KEY;
+const apiKey = "Tsjy4snA43ztTFwJW2xAz7t6aJxTnS3L5rZUM72gJ2ZOIuUyNlJUMrXW";
 const perPage = 15;
 let currentPage = 1;
 let searchTerm = null;
