@@ -127,8 +127,7 @@ Contributing 🤝
 We welcome contributions! If you have suggestions, find issues, or want to add features, please feel free to contribute.
 
 License 📄
-This project is licensed under the [Tsjy4snA43ztTFwJW2xAz7t6aJxTnS3L5rZUM72gJ2ZOIuUyNlJUMrXW] - see the LICENSE file for details.
-Documentatio: [https://www.pexels.com/api/documentation/]
+This project is licensed under the [Pexels License](https://www.pexels.com/license/). See the [LICENSE](LICENSE) file for details.
 
 Enjoy using PhotoEase API for seamless access to a curated collection of captivating photos! 🌈✨
 
