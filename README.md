@@ -29,7 +29,7 @@
 
 ## Description
 
-Your Project Name is a web gallery application that uses the Pexels API to display a curated collection of high-quality images. This project is built with HTML, CSS, and JavaScript, providing a simple and elegant user interface to browse and explore beautiful images.
+Pixelejo is a web gallery application that uses the Pexels API to display a curated collection of high-quality images. This project is built with HTML, CSS, and JavaScript, providing a simple and elegant user interface to browse and explore beautiful images to download.
 
 
 ## Features
